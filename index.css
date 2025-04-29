@@ -10,11 +10,15 @@
     --pumpkin-color: #d35400;
     --red-color: #d9534f;
     --white-color: #fff;
+    --Strong-Cyan:#089da1;
   }
-.logo>img{
+  .Web front end project{
+    
+  }
+.logo{
 
-width:30%;
-height: 40%;
+width:10%;
+height: 20%;
 
 }
 
@@ -26,6 +30,19 @@ height: 40%;
     .header{
 display: flex;
 justify-content: space-around;
-align-items: flex-start;
+align-items: center;
+background-color: #ffffff;
 
+margin: 0;
     }
+.list-componnent{
+    display: flex;
+    gap: 20px;
+ 
+}
+.icons{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+   
