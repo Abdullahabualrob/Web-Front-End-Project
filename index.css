@@ -12,9 +12,9 @@
     --white-color: #fff;
     --Strong-Cyan:#089da1;
   }
-  .Web front end project{
-    
-  }
+body{
+    margin: 0;
+}
 .logo{
 
 width:10%;
@@ -32,8 +32,11 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 background-color: #ffffff;
+border-bottom: solid var(--Strong-Cyan)  ;
+padding: 1%;
+border-bottom: 2px solid #089da1;
+box-shadow: 0 4px 6px -4px #089da1;
 
-margin: 0;
     }
 .list-componnent{
     display: flex;
