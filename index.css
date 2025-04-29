@@ -12,8 +12,9 @@
     --white-color: #fff;
     --Strong-Cyan:#089da1;
   }
-body{
-    margin: 0;
+.Web-front-end-project{
+ 
+
 }
 .logo{
 
@@ -49,3 +50,21 @@ justify-content: space-between;
 gap: 10px;
 }
    
+.section1 >img{
+    width:70%;
+    height: 60%;
+  
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    width: 70%;
+    opacity: 0.1; 
+    z-index: -1;   
+  
+    
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
