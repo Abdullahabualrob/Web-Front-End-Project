@@ -67,8 +67,12 @@ gap: 10px;
     
 }
 .section1{
-  display: flex;  
-   justify-content: center; 
+    display: flex;
+
+  align-items: center;
+  
+
+  
 }
 .section-1-A{
     max-width: 50%;
@@ -91,5 +95,20 @@ font-size: 50px;
     background-color: var(--Strong-Cyan);
     padding: 10px 20px;
     border-radius: 5px;
+    margin-left: 50px;
     
+}
+.bg-image{
+position: absolute;
+height: 50%;
+
+}
+.books > img{
+
+width: 50%;
+height: 50%;
+}
+.classbg{
+    display: flex;
+    justify-content: center;
 }
