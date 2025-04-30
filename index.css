@@ -117,4 +117,75 @@ width: auto;
 width: 80%;
 height: 50%;
 }
+.card {
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px var(--Strong-Cyan);
+}
+.card svg{
+  width: 50px;
+  height: 0px;
+      color: #0099a0;
+      margin-bottom: 10px; 
+}
+.card h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.card pre {
+  color: #333;
+  font-size: 14px;
+}
+
+.services {
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px var(--Strong-Cyan);
+}
+.services svg{
+  width: 50px;
+  height: 0px;
+      color: #0099a0;
+      margin-bottom: 10px; 
+}
+.services h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.services pre {
+  color: #333;
+  font-size: 14px;
+}
+.Best-Dell {
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px var(--Strong-Cyan);
+}
+.Best-Dell svg{
+  width: 50px;
+  height: 0px;
+      color: #0099a0;
+      margin-bottom: 10px; 
+}
+.Best-Dell h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.Best-Dell pre {
+  color: #333;
+  font-size: 14px;
+}
+
+
+
+
 
