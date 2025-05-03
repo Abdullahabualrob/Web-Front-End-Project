@@ -458,6 +458,17 @@ color: var(--green-sea-color);
     white-space: normal;
     
   }
+  [Books-name]{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0;
+
+
+  }
 
 }
 
@@ -547,7 +558,17 @@ color: var(--green-sea-color);
     
   }
 
+  [Books-name]{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0;
 
+
+  }
 
 
 
