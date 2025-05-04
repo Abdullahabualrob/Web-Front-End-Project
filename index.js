@@ -92,6 +92,38 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
   }
+  function createReviews(imageSrc) {
+    return `
+      <div class="book-arrival2">
+        <img src="${imageSrc}" alt="Book">
+        <div><span class="jone-Deo">john Deo</span></div>
+        <div><pre> 
+  Lorem ipsum dolor sit amet, consectetur adipisicing
+  elit. Natus eos doloribus iure distinctio! Eos dolorem
+  quam, nisi amet saepe totam, quas quidem
+  laboriosam dolore, tenetur itaque nostrum voluptas
+  excepturi aut.
+</pre> </div>
+        <div  class="star">     
+<div>  <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>  <i class="fas fa-star-half-stroke"></i> </div>
+
+</div>
+        <input class="button-learn3" type="button" value="Learn More">
+      </div>
+    `;
+  }
+
+
+
+
+
+
+
+
 
   const container1 = document.getElementById("Books-name");
   if (container1) {

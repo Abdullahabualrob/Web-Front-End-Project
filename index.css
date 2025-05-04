@@ -457,6 +457,38 @@ gap: 3%;
   font-weight: bold; 
 }
 
+#New-Reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3%;
+  margin: 1% 3% 8% 3%;
+
+
+}
+
+#New-Reviews img{
+  max-width: 183px;
+  max-height: 243.1px;
+  min-width:183px;
+  min-height:243.1px ;
+  object-fit: cover;
+ 
+ }
+ #New-Reviews  > div{
+  padding: 1% 2%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  } 
+
+
+
+
 
 
 
