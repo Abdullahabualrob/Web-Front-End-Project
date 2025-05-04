@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   const container4 = document.getElementById("New-Reviews");
   if (container4) {
-    container3.innerHTML = NewArrivals2.map(createReviews).join("");
+    container3.innerHTML =  Reviewsimg.map(createReviews).join("");
   }
 
 
