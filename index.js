@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   const Reviewsimg = [
-    "image/review_1.jpg",
-    "image/review_2.jpg",
-    "image/review_3.webp",
-    "image/review_4.jpg",
+    "image/review_1.png",
+    "image/review_2.png",
+    "image/review_3.png",
+    "image/review_4.png",
     
   ];
 
@@ -94,16 +94,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   function createReviews(imageSrc) {
     return `
-      <div class="book-arrival2">
-        <img src="${imageSrc}" alt="Book">
-        <div><span class="jone-Deo">john Deo</span></div>
-        <div><pre> 
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  elit. Natus eos doloribus iure distinctio! Eos dolorem
-  quam, nisi amet saepe totam, quas quidem
-  laboriosam dolore, tenetur itaque nostrum voluptas
-  excepturi aut.
-</pre> </div>
+      <div class="Reviews">
+      <div class="img-and-quote"> 
+       <div>  <img src="${imageSrc}" alt="Book"> </div>
+           <div> <i class="fas fa-quote-right"> </i> </div>
+        </div> 
+        <div><h1>john Deo</h1></div>
+        <div><p> 
+Lorem ipsum dolor sit amet, consectetur    adipisicing
+elit. Natus eos doloribus iure distinctio! Eos dolorem
+quam, nisi    amet  saepe   totam ,  quas       quidem
+laboriosam dolore, tenetur itaque nostrum     voluptas
+excepturi aut. 
+</p> </div>
         <div  class="star">     
 <div>  <i class="fas fa-star"></i></div>
 <div>   <i class="fas fa-star"></i></div>
@@ -112,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <div>  <i class="fas fa-star-half-stroke"></i> </div>
 
 </div>
-        <input class="button-learn3" type="button" value="Learn More">
+        
       </div>
     `;
   }
@@ -140,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   const container4 = document.getElementById("New-Reviews");
   if (container4) {
-    container3.innerHTML =  Reviewsimg.map(createReviews).join("");
+    container4.innerHTML =  Reviewsimg.map(createReviews).join("");
   }
 
 
