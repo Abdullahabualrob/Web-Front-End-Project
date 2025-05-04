@@ -24,6 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "image/arrival_4.jpg",
     "image/arrival_5.jpg",
   ];
+  const NewArrivals2 = [
+    "image/arrival_6.jpg",
+    "image/arrival_7.jpg",
+    "image/arrival_8.webp",
+    "image/arrival_9.jpg",
+    "image/arrival_10.jpg",
+  ];
 
   function createBookCard(imageSrc) {
     return `
@@ -46,7 +53,32 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="book-arrival">
         <img src="${imageSrc}" alt="Book">
         <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
-        
+        <div  class="star">     
+<div>  <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>  <i class="fas fa-star-half-stroke"></i> </div>
+
+</div>
+        <input class="button-learn3" type="button" value="Learn More">
+      </div>
+    `;
+  }
+
+  function createBookarrival2(imageSrc) {
+    return `
+      <div class="book-arrival2">
+        <img src="${imageSrc}" alt="Book">
+        <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
+        <div  class="star">     
+<div>  <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>  <i class="fas fa-star-half-stroke"></i> </div>
+
+</div>
         <input class="button-learn3" type="button" value="Learn More">
       </div>
     `;
@@ -60,6 +92,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const container2 = document.getElementById("New-Arrivals-book-A");
   if (container2) {
     container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+  }
+  const container3 = document.getElementById("New-Arrivals-book-B");
+  if (container3) {
+    container3.innerHTML = NewArrivals2.map(createBookarrival2).join("");
   }
 });
 
