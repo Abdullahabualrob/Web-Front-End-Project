@@ -1,4 +1,5 @@
-const books = [
+document.addEventListener("DOMContentLoaded", () => {
+  const books = [
     "image/book_1.jpg",
     "image/blog_2.jpg",
     "image/blog_3.jpg",
@@ -15,26 +16,14 @@ const books = [
     "image/book_14.png",
     "image/book_15.png"
   ];
-const NewArrivals1=[
-  "image/arrival_1.jpg",
-  "image/arrival_2.jpg",
-  "image/arrival_3.jpg",
-  "image/arrival_4.jpg",
-  "image/arrival_5.jpg",
 
-];
-function createBookarrival(imageSrc) {
-  return `
-    <div class="book-arrival">
-      <img src="${imageSrc}" alt="Book">
-      <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
-      
-      <input class="button-learn3" type="button" value="Learn More">
-    </div>
-  `;
-}
-
-
+  const NewArrivals1 = [
+    "image/arrival_1.jpg",
+    "image/arrival_2.jpg",
+    "image/arrival_3.jpg",
+    "image/arrival_4.jpg",
+    "image/arrival_5.jpg",
+  ];
 
   function createBookCard(imageSrc) {
     return `
@@ -51,11 +40,28 @@ function createBookarrival(imageSrc) {
       </div>
     `;
   }
-  const container1 = document.getElementById("Books-name");
-container1.innerHTML = books.map(createBookCard).join("");
 
-const container2 = document.getElementById("New-Arrivals-book-A");
-container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+  function createBookarrival(imageSrc) {
+    return `
+      <div class="book-arrival">
+        <img src="${imageSrc}" alt="Book">
+        <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
+        
+        <input class="button-learn3" type="button" value="Learn More">
+      </div>
+    `;
+  }
+
+  const container1 = document.getElementById("Books-name");
+  if (container1) {
+    container1.innerHTML = books.map(createBookCard).join("");
+  }
+
+  const container2 = document.getElementById("New-Arrivals-book-A");
+  if (container2) {
+    container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+  }
+});
 
 
 
