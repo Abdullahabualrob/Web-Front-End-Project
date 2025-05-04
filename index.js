@@ -15,6 +15,27 @@ const books = [
     "image/book_14.png",
     "image/book_15.png"
   ];
+const NewArrivals1=[
+  "image/arrival_1.jpg",
+  "image/arrival_2.jpg",
+  "image/arrival_3.jpg",
+  "image/arrival_4.jpg",
+  "image/arrival_5.jpg",
+
+];
+function createBookarrival(imageSrc) {
+  return `
+    <div class="book-arrival">
+      <img src="${imageSrc}" alt="Book">
+      <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
+      
+      <input class="button-learn3" type="button" value="Learn More">
+    </div>
+  `;
+}
+
+
+
   function createBookCard(imageSrc) {
     return `
       <div class="book-card">
@@ -30,6 +51,12 @@ const books = [
       </div>
     `;
   }
-  const container = document.getElementById("Books-name");
-container.innerHTML = books.map(createBookCard).join("");
+  const container1 = document.getElementById("Books-name");
+container1.innerHTML = books.map(createBookCard).join("");
+
+const container2 = document.getElementById("New-Arrivals-book-A");
+container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+
+
+
     
