@@ -32,6 +32,15 @@ document.addEventListener("DOMContentLoaded", () => {
     "image/arrival_10.jpg",
   ];
 
+  const Reviewsimg = [
+    "image/review_1.jpg",
+    "image/review_2.jpg",
+    "image/review_3.webp",
+    "image/review_4.jpg",
+    
+  ];
+
+
   function createBookCard(imageSrc) {
     return `
       <div class="book-card">
@@ -97,6 +106,14 @@ document.addEventListener("DOMContentLoaded", () => {
   if (container3) {
     container3.innerHTML = NewArrivals2.map(createBookarrival2).join("");
   }
+  const container4 = document.getElementById("New-Reviews");
+  if (container4) {
+    container3.innerHTML = NewArrivals2.map(createReviews).join("");
+  }
+
+
+
+
 });
 
 
