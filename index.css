@@ -463,15 +463,17 @@ gap: 3%;
   align-items: flex-start;
   gap: 1%;
   margin: 3% 3% 8% 3%;
-
+  overflow-x: auto;
+  scrollbar-width: thin;          
+    scrollbar-color:var(--Strong-Cyan) #eee;
 
 }
 
 #New-Reviews img{
- width: 40%;
- height: 80%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: 100%;
  
  }
  #New-Reviews  > div{
@@ -485,17 +487,22 @@ gap: 3%;
   
   } 
 .img-and-quote{
-display: flex;
- justify-content: space-between;
-
- 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
 }
 
 .img-and-quote i{
-color:#eaeaea;
-font-size: 90px;
-}
+  font-size: 90px;
+  color: #eaeaea
 
+
+}
+.Reviews p{
+  text-align: justify;
+word-spacing: 0;
+}
 
 
 

@@ -100,12 +100,12 @@ document.addEventListener("DOMContentLoaded", () => {
            <div> <i class="fas fa-quote-right"> </i> </div>
         </div> 
         <div><h1>john Deo</h1></div>
-        <div><p> 
-Lorem ipsum dolor sit amet, consectetur    adipisicing
+        <div ><p> 
+Lorem ipsum dolor sit amet, consectetur adipisicing
 elit. Natus eos doloribus iure distinctio! Eos dolorem
-quam, nisi    amet  saepe   totam ,  quas       quidem
-laboriosam dolore, tenetur itaque nostrum     voluptas
-excepturi aut. 
+quam, nisi amet saepe totam, quas quidem
+laboriosam dolore, tenetur itaque nostrum voluptas
+excepturi aut.
 </p> </div>
         <div  class="star">     
 <div>  <i class="fas fa-star"></i></div>
