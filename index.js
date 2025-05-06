@@ -39,7 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "image/review_4.png",
     
   ];
-
+  const Bloger = [
+    "image/blog_1.jpg",
+    "image/blog_2.jpg",
+    "image/blog_3.jpg",
+    
+    
+  ];
 
   function createBookCard(imageSrc) {
     return `
@@ -120,6 +126,31 @@ excepturi aut.
     `;
   }
 
+  function createBloger(imageSrc) {
+    return `
+      <div class="Blogers">
+    
+       <div>  <img src="${imageSrc}" alt="Book"> </div>
+    
+        <div><h1>Bloger</h1></div>
+        <div ><p> 
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ipsam, quos quis quasi ut impedit reiciendis voluptatem
+rem esse ratione omnis, laudantium    earum.    Aperiam
+nesciunt dolore  aliquam   repellat consequatur    amet
+ducimus.
+excepturi aut.
+</p> </div>
+        <div  class="icons-Bloger">     
+<div>  <i class="fas fa-hart"> </i></div>
+<div>   <i class="fas fa-calendar-days"></i></div>
+
+
+</div>
+        
+      </div>
+    `;
+  }
 
 
 
@@ -145,7 +176,10 @@ excepturi aut.
   if (container4) {
     container4.innerHTML =  Reviewsimg.map(createReviews).join("");
   }
-
+  const container5 = document.getElementById("New-Bloger");
+  if (container5) {
+    container5.innerHTML = Bloger.map(createBloger).join("");
+  }
 
 
 
