@@ -507,7 +507,9 @@ word-spacing: 0;
 width: 100%;
 height: auto;
 }
-.Digital-Book {display: inline-block;
+.Digital-Book {
+position: relative;
+display: inline-block;
 margin-right: 0;
 }
 .Digital-Book input {
