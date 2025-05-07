@@ -507,9 +507,7 @@ word-spacing: 0;
 width: 100%;
 height: auto;
 }
-.Digital-Book {
-position: relative;
-display: inline-block;
+.Digital-Book {display: inline-block;
 margin-right: 0;
 }
 .Digital-Book input {
@@ -535,26 +533,48 @@ position: absolute;
   justify-content: space-between;
   align-items: flex-start;
   gap: 5%;
-  margin: 2% 
+  margin: 1% 4% ; 
 
 
 }
 #New-Bloger > div{
-  padding: 0% 0% 2% 0%;
+  padding:  2%;
   gap: 10px;
   border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items:flex-start;
-  
+  border-color: white;
   } 
 #New-Bloger img{
   width: 404.76px;
   height: 269.63;
-padding: 0;
+margin: 0;
   object-fit: cover; 
 } 
+
+#New-Bloger p{
+  text-align: justify;
+  word-spacing: 0;
+
+}
+#New-Bloger h1{
+  color: var(--Strong-Cyan);
+
+}
+#New-Bloger i{
+  color: var(--Strong-Cyan);
+
+}
+.icons-Bloger{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
 @media only screen and (max-width: 600px) {
   .section1 {
     display: flex;

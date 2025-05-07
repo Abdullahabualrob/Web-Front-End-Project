@@ -136,13 +136,13 @@ excepturi aut.
         <div ><p> 
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Ipsam, quos quis quasi ut impedit reiciendis voluptatem
-rem esse ratione omnis, laudantium    earum.    Aperiam
+rem esse ratione omnis, laudantium    earum.     Aperiam
 nesciunt dolore  aliquam   repellat consequatur    amet
 ducimus.
-excepturi aut.
+
 </p> </div>
         <div  class="icons-Bloger">     
-<div>  <i class="fas fa-hart"> </i></div>
+<div>  <i class="fas fa-heart"> </i></div>
 <div>   <i class="fas fa-calendar-days"></i></div>
 
 
