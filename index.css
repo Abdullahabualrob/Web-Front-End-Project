@@ -617,6 +617,27 @@ flex-direction: column;
   gap: 10px;
   
 }
+.input-Newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#email-input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+}
+#submit-input{
+  background-color: var(--Strong-Cyan);
+  color: white;
+  padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+}
+
+
 @media only screen and (max-width: 600px) {
   .section1 {
     display: flex;
