@@ -773,6 +773,16 @@ text-align: center;
   gap: 1rem;
   margin: 0; 
 }
+#New-Reviews{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 15px;
+  gap: 1rem;
+  margin: 0; 
+
+}
 }
 
 
@@ -902,7 +912,16 @@ text-align: center;
     gap: 1rem;
     margin: 0; 
   }
+#New-Reviews{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 15px;
+  gap: 1rem;
+  margin: 0; 
 
+}
 
 
 
